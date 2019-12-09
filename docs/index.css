@@ -9,6 +9,26 @@ html {
 .card-logos{
 	display: flex;
 }
+.slick .nav-pills {
+	display: flex;
+	justify-content: center;
+	background-color: #2b2b2b;
+	padding: 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.slick a:hover{
+	color: #ffe608;
+}
+.slick .carousel {
+	position: absolute;
+	width: 120vh;
+	height: 450px;
+	left: 11%;
+}
+
 .carousel {
 	position: absolute;
 	width: 107vh;
@@ -699,6 +719,19 @@ html {
 		a#pills-otras-tab.nav-link {
 			margin-left: 0px;
 		}
+		.slick .row{
+			display: block;
+		}
+		.slick .carousel {
+			position: absolute;
+			width: 51vh;
+			height: 450px;
+			left: 21%;
+			padding-top: 10px;
+		}
+		.slick {
+			padding-bottom: 96%;
+		}
 
 	}
 
@@ -847,11 +880,21 @@ html {
 		}
 		.formu .form-control {
 			margin: 0px auto 20px auto;
-			width: 63%;
+			width: 97%;
 		}
 		textarea.form-control {
-			width: 64%;
+			width: 97%;
 			margin: auto;
-			height: 122px;
+			height: 134px;
+		}
+		.slick .carousel {
+			position: absolute;
+			width: 48vh;
+			height: 450px;
+			left: 21%;
+			padding-top: 32px;
+		}
+		.slick {
+			padding-bottom: 46%;
 		}
 	}
