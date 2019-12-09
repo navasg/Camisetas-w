@@ -19,13 +19,19 @@ html {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
+
 .slick a:hover{
 	color: #ffe608;
+}
+.info {
+	display: inline-block;
+	color: white;
+	align-self: center;
 }
 .slick .carousel {
 	position: absolute;
 	width: 120vh;
-	height: 450px;
+	height: 357px;
 	left: 11%;
 }
 
@@ -33,6 +39,20 @@ html {
 	position: absolute;
 	width: 107vh;
 	height: 450px;
+}
+.main-store .main-store__item {
+	height: 26rem;
+	border-radius: 2rem;
+	overflow: hidden;
+	padding-right: 13px;
+	width: 285px;
+
+}
+.main-store .carousel {
+	position: absolute;
+	width: 130vh;
+	height: 450px;
+	left: 20%;
 }
 
 .navbar-toggler {
@@ -44,11 +64,11 @@ html {
 }
 .container-tiendas{
 	padding-top: 3rem;
-	padding-bottom: 41rem;
+	padding-bottom: 30rem;
 }
 .nav-pills{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 .carousel {
 	position: absolute;
