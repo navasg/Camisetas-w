@@ -643,57 +643,63 @@
       <!--tiendas-->
 
       <section class="main-store" >
-        <div class="container padding-top-bottom" > 
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Tiendas de Bogotá</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Otras tiendas</a>
-              </li>
+        <div class="container-tiendas padding-top-bottom" > 
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Tiendas de Bogota</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Otras Tiendas</a>
+            </li>
+
           </ul>
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-              <div class="container-grid">
-                <div class="main-store__item" >
-                  <div class="main-store__img">
-                    <img src="imagenes/úntos de venta/Local-Gran-San-0P.jpg" alt="">
-                  </div>
-                  <div class="main-store__body">
-                    <h2 class="main-store__title">
-                      CC. Gran San
-                    </h2>
-                    <ul class="main-store__list ">
-                      <li>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                   <div class="main-store__item" >
+                    <div class="main-store__img">
+                      <img src="imagenes/úntos de venta/Local-Gran-San-0P.jpg" alt="">
+                    </div>
+                    <div class="main-store__body">
+                      <h2 class="main-store__title">
+                        CC. Gran San
+                      </h2>
+                      <ul class="main-store__list ">
+                        <li>
                           Cra. 10 No. 9 - 37, Local 1117 Por entradas 3 y 4
-                      </li>
-                      <li>Tel: 2433983 - WA -313 3428060</li>
-                      <li>
+                        </li>
+                        <li>Tel: 2433983 - WA -313 3428060</li>
+                        <li>
                           Sector de San Victorino, Bogotá Colombia
-                      </li>
-                      <li class="main-store__bold" > Horario </li>
-                      <li>
-                        Lunes a Viernes
-                      </li>
-                      <li class="main-store__bold" >
-                        8:30 am - 6:00 pm
-                      </li>
-                      <li>
-                        Miercoles y Sábados
-                      </li>
-                      <li class="main-store__bold" >
-                        (Madrugon) 6:00 am - 6:00 pm
-                      </li>
-                      <li>
-                        Domingo y Festivos
-                      </li>
-                      <li class="main-store__bold" >
-                        10:00 am - 3:00 pm
-                      </li>
-                    </ul>
+                        </li>
+                        <li class="main-store__bold" > Horario </li>
+                        <li>
+                          Lunes a Viernes
+                        </li>
+                        <li class="main-store__bold" >
+                          8:30 am - 6:00 pm
+                        </li>
+                        <li>
+                          Miercoles y Sábados
+                        </li>
+                        <li class="main-store__bold" >
+                          (Madrugon) 6:00 am - 6:00 pm
+                        </li>
+                        <li>
+                          Domingo y Festivos
+                        </li>
+                        <li class="main-store__bold" >
+                          10:00 am - 3:00 pm
+                        </li>
+                      </ul>
+                    </div>
                   </div>
+
                 </div>
-                <div class="main-store__item" >
+                <div class="carousel-item">
+                 <div class="main-store__item" >
                   <div class="main-store__img">
                     <img src="imagenes/úntos de venta/Local-PonceOP.jpg" alt="">
                   </div>
@@ -731,6 +737,8 @@
                     </ul>
                   </div>
                 </div>
+              </div>
+              <div class="carousel-item">
                 <div class="main-store__item" >
                   <div class="main-store__img">
                     <img src="imagenes/úntos de venta/Local-RositaOP.jpg" alt="">
@@ -745,7 +753,7 @@
                       </li>
                       <li>Tel: 3414219</li>
                       <li>
-                          Sector de San Victorino, Bogotá Colombia
+                        Sector de San Victorino, Bogotá Colombia
                       </li>
                       <li class="main-store__bold" > Horario </li>
                       <li>
@@ -754,7 +762,7 @@
                       <li class="main-store__bold" >
                         8:30 am - 6:00 pm
                       </li>
-                
+
                       <li>
                         Domingo y Festivos
                       </li>
@@ -764,6 +772,8 @@
                     </ul>
                   </div>
                 </div>
+              </div>
+              <div class="carousel-item">
                 <div class="main-store__item" >
                   <div class="main-store__img">
                     <img src="imagenes/úntos de venta/Local-Metro-OP.jpg" alt="">
@@ -778,7 +788,7 @@
                       </li>
                       <li>Tel: 3423620 - WA- 313 3428085</li>
                       <li>
-                          Sector de San Victorino, Bogotá Colombia
+                        Sector de San Victorino, Bogotá Colombia
                       </li>
                       <li class="main-store__bold" > Horario </li>
                       <li>
@@ -796,6 +806,8 @@
                     </ul>
                   </div>
                 </div>
+              </div>
+              <div class="carousel-item">
                 <div class="main-store__item" >
                   <div class="main-store__img">
                     <img src="imagenes/úntos de venta/Local-Gran-San-0P.jpg" alt="">
@@ -810,7 +822,7 @@
                       </li>
                       <li>Tel: 4663876</li>
                       <li>
-                          Sector Barrio Galán, Bogotá Colombia
+                        Sector Barrio Galán, Bogotá Colombia
                       </li>
                       <li class="main-store__bold" > Horario </li>
                       <li>
@@ -830,82 +842,87 @@
                 </div>
               </div>
             </div>
-
-
-
-
-            
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-              <div class="container-grid">
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
                 <div class="main-store__item" >
-                    <div class="main-store__img">
-                      <img src="imagenes/úntos de venta/Local-Gran-San-0P.jpg" alt="">
-                    </div>
-                    <div class="main-store__body">
-                      <h2 class="main-store__title">
-                        CC. Plaza 56
-                      </h2>
-                      <ul class="main-store__list ">
-                        <li>
-                          Cra. 56 No. 2 b - 83, Local 101
-                        </li>
-                        <li>Tel: 4663876</li>
-                        <li>
-                            Sector Barrio Galán, Bogotá Colombia
-                        </li>
-                        <li class="main-store__bold" > Horario </li>
-                        <li>
-                          Lunes a Sabado
-                        </li>
-                        <li class="main-store__bold" >
-                          9:00 am - 8:00 pm
-                        </li>      
-                        <li>
-                          Domingo y Festivos
-                        </li>
-                        <li class="main-store__bold" >
-                          11:00 am - 5:00 pm
-                        </li>
-                      </ul>
-                    </div>
-                </div>
-                <div class="main-store__item" >
-                    <div class="main-store__img">
-                      <img src="imagenes/úntos de venta/Local-Gran-San-0P.jpg" alt="">
-                    </div>
-                    <div class="main-store__body">
-                      <h2 class="main-store__title">
-                        CC. Plaza 56
-                      </h2>
-                      <ul class="main-store__list ">
-                        <li>
-                          Cra. 56 No. 2 b - 83, Local 101
-                        </li>
-                        <li>Tel: 4663876</li>
-                        <li>
-                            Sector Barrio Galán, Bogotá Colombia
-                        </li>
-                        <li class="main-store__bold" > Horario </li>
-                        <li>
-                          Lunes a Sabado
-                        </li>
-                        <li class="main-store__bold" >
-                          9:00 am - 8:00 pm
-                        </li>      
-                        <li>
-                          Domingo y Festivos
-                        </li>
-                        <li class="main-store__bold" >
-                          11:00 am - 5:00 pm
-                        </li>
-                      </ul>
-                    </div>
+                  <div class="main-store__img">
+                    <img src="imagenes/úntos de venta/Local-Gran-San-0P.jpg" alt="">
+                  </div>
+                  <div class="main-store__body">
+                    <h2 class="main-store__title">
+                      CC. Plaza 56
+                    </h2>
+                    <ul class="main-store__list ">
+                      <li>
+                        Cra. 56 No. 2 b - 83, Local 101
+                      </li>
+                      <li>Tel: 4663876</li>
+                      <li>
+                        Sector Barrio Galán, Bogotá Colombia
+                      </li>
+                      <li class="main-store__bold" > Horario </li>
+                      <li>
+                        Lunes a Sabado
+                      </li>
+                      <li class="main-store__bold" >
+                        9:00 am - 8:00 pm
+                      </li>      
+                      <li>
+                        Domingo y Festivos
+                      </li>
+                      <li class="main-store__bold" >
+                        11:00 am - 5:00 pm
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+              <div class="carousel-item">
+                <div class="main-store__item" >
+                  <div class="main-store__img">
+                    <img src="imagenes/úntos de venta/Local-Gran-San-0P.jpg" alt="">
+                  </div>
+                  <div class="main-store__body">
+                    <h2 class="main-store__title">
+                      CC. Plaza 56
+                    </h2>
+                    <ul class="main-store__list ">
+                      <li>
+                        Cra. 56 No. 2 b - 83, Local 101
+                      </li>
+                      <li>Tel: 4663876</li>
+                      <li>
+                        Sector Barrio Galán, Bogotá Colombia
+                      </li>
+                      <li class="main-store__bold" > Horario </li>
+                      <li>
+                        Lunes a Sabado
+                      </li>
+                      <li class="main-store__bold" >
+                        9:00 am - 8:00 pm
+                      </li>      
+                      <li>
+                        Domingo y Festivos
+                      </li>
+                      <li class="main-store__bold" >
+                        11:00 am - 5:00 pm
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
-      </section>
+
+      </div>
+
+    </section>
       <!-- <section id="tiendas" class="tiendas">
 
         <div class="sub row">
@@ -1404,8 +1421,8 @@
                 <div>
                   <ul class="lista-info">
                     <li class="items-info">Fabricado por Pilatex SAS</li>
-                    <li class="items-info">Carrera 63 No.4 - 03 Paradera (Galan)</li>
-                    <li class="items-info">Tel: 7534426 - Cel: 313 8252622</li>
+                    <li class="items-info">Cra 64 · 4-03, La Pradera</li>
+                    <li class="items-info">Tel: 7538426</li>
                     <li class="items-info">Bogota - Colombia</li>
                   </ul>
                 </div>
@@ -1448,58 +1465,11 @@
           </script>
           <script src="js/index.js" type="text/javascript" charset="utf-8" async defer></script>
           <script>
-            
-            $(document).ready({
-             $('.main-banner-content__logos2').slick({
-              slidesToShow: 3,
-              slidesToScroll: 3,
-
-              infinite: true,
-              autoplaySpeed: 2000,
-            });
-
-             $('.main-banner-content__logos').slick({
-              slidesToShow: 3,
-              slidesToScroll: 3,
-
-              infinite: true,
-              autoplaySpeed: 2000,
-            });
-
-             
 
 
-             $('.products').slick({
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              autoplay: true,
-              autoplaySpeed: 2000,
-              infinite: true,
-
-            });
-             $('.main-banner__content').slick({
-              slidesToShow: 1,
-              slidesToScroll: 1,
-
-              infinite: true,
-              autoplaySpeed: 2000,
-            });
 
 
-           });
 
-         </script>
+            </body>
+            </html>
 
-       </body>
-       </html>
-
-<!-- <p>Fabricado por Pilatex SAS</p>
-              <p>Carrera 64 No.4 - 03 Paradera (Galan)</p>
-              <p>Tel: 7538427 - Cel: 313 8252622</p>
-              <p>Bogota Colombia</p><p>Fabricado por Pilatex SAS</p>
-              <p>Carrera 64 No.4 - 03 Paradera (Galan)</p>
-              <p>Tel: 7538427 - Cel: 313 8252622</p>
-              <p>Bogota Colombia</p><p>Fabricado por Pilatex SAS</p>
-              <p>Carrera 64 No.4 - 03 Paradera (Galan)</p>
-              <p>Tel: 7538427 - Cel: 313 8252622</p>
-              <p>Bogota Colombia</p> -->
