@@ -6,6 +6,14 @@ body {
 html {
 	scroll-behavior: smooth;
 }
+.card-logos{
+	display: flex;
+}
+.carousel {
+	position: absolute;
+	width: 107vh;
+	height: 450px;
+}
 
 .navbar-toggler {
 	outline: none;
@@ -45,7 +53,7 @@ html {
 	height: 60%;
 	padding: 1rem;
 	text-align: center;
-	
+
 }  
 
 
@@ -468,6 +476,7 @@ html {
 			padding-left: 40px;
 		}
 
+
 	}
 
 	@media screen and (max-width:1100px) {
@@ -508,11 +517,14 @@ html {
 			/* margin-top: 90px; */
 		}
 
+
+
 	/* .ubicacion {
 		width: 180px;
 		} */
 
 	}
+
 
 	@media screen and (max-width:770px) {
 		.main-banner__onda {
@@ -819,5 +831,27 @@ html {
 	@media screen and (min-width:768px) and (max-width:997px) {
 		.main-store .container-grid {
 			grid-template-columns: repeat(2, 1fr);
+		}
+		.main-banner__onda {
+			
+			bottom: 23%;
+		}
+		.carousel {
+			position: absolute;
+			width: 56vh;
+			height: 450px;
+			left: 13%;
+		}
+		.pedido {
+			height: 50vh;
+		}
+		.formu .form-control {
+			margin: 0px auto 20px auto;
+			width: 63%;
+		}
+		textarea.form-control {
+			width: 64%;
+			margin: auto;
+			height: 122px;
 		}
 	}
