@@ -58,7 +58,40 @@ html {
 .navbar-toggler {
 	outline: none;
 }
-
+.container-detalle__content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.container-text__descripcion{
+	align-self: center;
+}
+.title-descripcion{
+	font-size: 40px;
+	font-weight: 800;
+}
+.text-descripcion{
+	font-size: 19px;
+	line-height: 40px;
+}
+.container-destacados__content{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding-top: 50px;
+}
+.container-destacados__text{
+	display: flex;
+	justify-content: center;
+}
+.container-opciones{
+	padding-top: 60px;
+}
+.titulo-destacados{
+	font-size: 40px;
+	font-weight: 800;
+}
+.card-text{
+	text-align: center;
+}
 .padding-top-bottom {
 	
 }
@@ -570,6 +603,31 @@ html {
 		.main-banner__onda {
 			bottom:73px;
 		}
+		.container-detalle__content{
+			display: grid;
+			grid-template-columns: 300px ;
+		}
+		.text-descripcion {
+			font-size: 17px;
+			line-height: 40px;
+		}
+		.title-descripcion {
+			font-size: 39px;
+			font-weight: 800;
+			text-align: center;
+		}
+		.container-destacados__content {
+			display: grid;
+			grid-template-columns: 1fr;
+			padding-top: 50px;
+		}
+		.img-detalle{
+			width: 100%;
+		}
+		.card-logos {
+			display: flex;
+			justify-content: center;
+		}
 		.carousel {
 			position: absolute;
 			width: 56vh;
@@ -916,5 +974,14 @@ html {
 		}
 		.slick {
 			padding-bottom: 46%;
+		}
+		.container-destacados__content {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			padding-top: 50px;
+		}
+		.container-detalle__content {
+			display: grid;
+			grid-template-columns: 1fr;
 		}
 	}
