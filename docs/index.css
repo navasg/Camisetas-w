@@ -22,6 +22,11 @@ html {
 	border-top-right-radius: 5px;
 }
 
+.carousel-control-prev {
+	width: 5%;
+
+}
+
 
 .slick .carousel {
 	height: 100%;
@@ -41,6 +46,13 @@ html {
 	position: absolute;
 	width: 120vh;
 	left: 11%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-image: none;
+	color: #ffe608;
+
 }
 
 .carousel {
